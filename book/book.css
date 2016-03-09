@@ -19,6 +19,9 @@ div {
     left: 0;
     right: 0;
     z-index: 3;
+    -webkit-box-shadow:0 0 10px #ec1806;
+    -moz-box-shadow:0 0 10px #ec1806;
+    box-shadow:0 0 10px #ec1806;
 }
 .O1bNWe {
     min-height: 100%;
@@ -28,19 +31,22 @@ div {
     top: 0;
     right: 0;
     z-index: 1;
+    background-color: #EEEEEE;
 }
 .ATvLPb {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    width: calc((100% - 24px)*0.30);
+    width: calc((100% - 24px)*0.25);
     animation: slideHeader-860 .3s cubic-bezier(0.0,0.0,0.2,1);
     backface-visibility: hidden;
 }
 .DAbEod {
-    margin-left: calc((100% - 24px)*0.375);
+    margin-left: calc((100% - 24px)*0.25);
     margin-top: 48px;
+    -webkit-animation: none;
+    animation: none;
 }
 .pWgqe {
     height: 48px;
