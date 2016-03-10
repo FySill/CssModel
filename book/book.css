@@ -43,10 +43,16 @@ div {
     backface-visibility: hidden;
 }
 .DAbEod {
+    position: relative;
+    z-index: 1;
     margin-left: calc((100% - 24px)*0.25);
     margin-top: 48px;
     -webkit-animation: none;
     animation: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    min-height: 100%;
+    height: auto;
 }
 .pWgqe {
     height: 48px;
@@ -114,6 +120,49 @@ div {
     font-weight: 400;
     margin-top: 14px;
 }
+.M7vp2c {
+  height: 100%;
+  width: auto;
+}
+.pd4VHb {
+  height: auto;
+  width: auto;
+    margin-left: 24px;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 0;
+    position: relative;
+}
+.H68wj {
+  height: 100%;
+  width: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    white-space: normal;
+    /* width: 100%; */
+    max-width: 530px;
+    line-height: normal;
+}
+.GcESAf {
+    margin-top: 24px;
+    height: 700px;
+    max-width: 530px;
+    min-width: 280px;
+    margin: 0 auto 0;
+    outline: none;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    z-index: 1;
+    background-color: #fefefe;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: start;
+}
+
+
 a {
     text-decoration: none;
     color: #2962ff;
