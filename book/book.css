@@ -52,7 +52,7 @@ div {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     min-height: 100%;
-    height: auto;
+    height: 100%;
 }
 .pWgqe {
     height: 48px;
@@ -123,6 +123,7 @@ div {
 .M7vp2c {
   height: 100%;
   width: auto;
+  overflow: auto;
 }
 .pd4VHb {
   height: auto;
@@ -134,8 +135,8 @@ div {
     position: relative;
 }
 .H68wj {
-  height: 100%;
-  width: auto;
+    height: 600px;
+    width: auto;
     display: inline-block;
     vertical-align: top;
     text-align: left;
@@ -149,7 +150,6 @@ div {
     height: 700px;
     max-width: 530px;
     min-width: 280px;
-    margin: 0 auto 0;
     outline: none;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
     z-index: 1;
