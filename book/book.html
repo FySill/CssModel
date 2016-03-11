@@ -1,6 +1,17 @@
 <html>
 <head>
   <link rel="stylesheet" media="all" href="book.css">
+  <link rel="stylesheet" href="editormd.css" />
+
+  <script src="jquery.min.js"></script>
+  <script src="editormd.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+        var testEditor = editormd("test-editormd", {
+            path : './editor.md/lib/'
+        });
+    });
+</script>
 </head>
 <body>
   <div class="Wxeofe"></div>
@@ -29,9 +40,8 @@
         <div class="M7vp2c">
           <div class="pd4VHb">
             <div class="H68wj">
-              <div class="GcESAf">
-              </div>
-              <div class="GcESAf">
+              <div id="test-editormd">
+                <textarea<span> style="display:none;"</span>>###Hello world!</textarea>
               </div>
             </div>
           </div>

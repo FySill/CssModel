@@ -19,6 +19,7 @@ div {
     left: 0;
     right: 0;
     z-index: 3;
+    margin-left: calc((100% - 24px)*0.3);
     -webkit-box-shadow:0 0 10px #ec1806;
     -moz-box-shadow:0 0 10px #ec1806;
     box-shadow:0 0 10px #ec1806;
@@ -38,14 +39,14 @@ div {
     top: 0;
     bottom: 0;
     left: 0;
-    width: calc((100% - 24px)*0.25);
+    width: calc((100% - 24px)*0.3);
     animation: slideHeader-860 .3s cubic-bezier(0.0,0.0,0.2,1);
     backface-visibility: hidden;
 }
 .DAbEod {
     position: relative;
     z-index: 1;
-    margin-left: calc((100% - 24px)*0.25);
+    margin-left: calc((100% - 24px)*0.3);
     margin-top: 48px;
     -webkit-animation: none;
     animation: none;
@@ -55,7 +56,7 @@ div {
     height: 100%;
 }
 .pWgqe {
-    height: 48px;
+    height: 0px;
     display: block;
 }
 .LWhPr {
@@ -129,26 +130,27 @@ div {
   height: auto;
   width: auto;
     margin-left: 24px;
+    margin-right: 24px;
     text-align: left;
     white-space: nowrap;
     line-height: 0;
     position: relative;
 }
 .H68wj {
-    height: 600px;
-    width: auto;
+    height: 100%;
+    width: 100%;
     display: inline-block;
     vertical-align: top;
     text-align: left;
     white-space: normal;
     /* width: 100%; */
-    max-width: 530px;
+    /*max-width: 530px;*/
     line-height: normal;
 }
 .GcESAf {
     margin-top: 24px;
     height: 700px;
-    max-width: 530px;
+    /*max-width: 530px;*/
     min-width: 280px;
     outline: none;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
