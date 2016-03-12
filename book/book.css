@@ -10,6 +10,7 @@ body {
 }
 div {
     display: block;
+
 }
 .Wxeofe {
     width: 100%;
@@ -127,7 +128,7 @@ div {
   overflow: auto;
 }
 .pd4VHb {
-  height: auto;
+  height: 100%;
   width: auto;
     margin-left: 24px;
     margin-right: 24px;
@@ -151,7 +152,7 @@ div {
     margin-top: 24px;
     height: 700px;
     /*max-width: 530px;*/
-    min-width: 280px;
+    /*min-width: 280px;*/
     outline: none;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
     z-index: 1;
